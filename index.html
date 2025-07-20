@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Sea Luggage Storage | Hurghada</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Red Sea Luggage Storage</h1>
+                <p>Store your bags safely while exploring Hurghada</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Explore Hurghada Hands-Free</h2>
+            <p>Store your luggage safely at our trusted locations across the city</p>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="bags">Number of Bags</label>
+                    <select id="bags" required>
+                        <option value="1">1 Bag</option>
+                        <option value="2">2 Bags</option>
+                        <option value="3">3 Bags</option>
+                        <option value="4">4 Bags</option>
+                        <option value="5+">5+ Bags</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Find Storage</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Book Online</h3>
+                    <p>Reserve your storage spot in advance or on the go</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Drop Off</h3>
+                    <p>Find our partner location and leave your bags</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Enjoy Hurghada</h3>
+                    <p>Explore the Red Sea without heavy luggage</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Pick Up</h3>
+                    <p>Collect your bags when you're ready</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations" class="locations">
+        <div class="container">
+            <h2>Our Locations in Hurghada</h2>
+            <div class="location-cards" id="location-cards">
+                <!-- Locations will be added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Simple Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Small Bag</h3>
+                    <p class="price">50 EGP<span>/day</span></p>
+                    <ul>
+                        <li>Backpacks</li>
+                        <li>Small duffel bags</li>
+                        <li>Up to 10kg</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Medium Bag</h3>
+                    <p class="price">80 EGP<span>/day</span></p>
+                    <ul>
+                        <li>Carry-on luggage</li>
+                        <li>Medium suitcases</li>
+                        <li>Up to 20kg</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Large Bag</h3>
+                    <p class="price">120 EGP<span>/day</span></p>
+                    <ul>
+                        <li>Checked luggage</li>
+                        <li>Large suitcases</li>
+                        <li>Up to 30kg</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">Is my luggage insured? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>Yes, all stored luggage is covered by our insurance policy up to $200 per bag.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What are your opening hours? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>Most locations are open from 8:00 AM to 10:00 PM daily. Some hotel locations may have extended hours.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I store my bags overnight? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>Yes, we offer overnight storage at all locations. Just make sure to select the correct dates when booking.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How do I pay? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>You can pay online when booking or in cash at the location. We accept EGP, USD, and EUR.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Hurghada, Red Sea, Egypt</p>
+                    <p><i class="fas fa-phone"></i> +20 100 123 4567</p>
+                    <p><i class="fas fa-envelope"></i> info@redsealuggagestorage.com</p>
+                </div>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Red Sea Luggage Storage</h3>
+                    <p>Making your Hurghada experience more enjoyable by taking care of your luggage.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-phone"></i> +20 100 123 4567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Red Sea Luggage Storage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
